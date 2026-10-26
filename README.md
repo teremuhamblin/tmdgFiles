@@ -35,17 +35,14 @@ src/
 ```
 
 📦 Installation
+- Dépendances Linux
+   - **sudo apt install libgtk-4-dev**
 
-   - Dépendances Linux
-`
-sudo apt install libgtk-4-dev
-`
-
-   - Compilation
-`
+- Compilation
+```text
 cargo build
 cargo run
-`
+```
 
 🗺️ Roadmap
 >> Voir docs/roadmap.md.
