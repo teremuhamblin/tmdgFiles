@@ -1,0 +1,53 @@
+# === Rust ===
+target/
+Cargo.lock
+
+# === Rust tooling ===
+*.rs.bk
+*.pdb
+
+# === Build artifacts ===
+*.o
+*.so
+*.dll
+*.dylib
+
+# === GTK / GObject ===
+*.gir
+*.typelib
+
+# === Logs ===
+*.log
+
+# === Runtime ===
+*.cache
+.cache/
+tmp/
+temp/
+
+# === Editor / IDE ===
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# === OS files ===
+# Linux
+*~
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# === GitHub ===
+.github/workflows/*.local.yml
+
+# === Project-specific ===
+assets/generated/
+docs/generated/
