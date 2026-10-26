@@ -2,7 +2,8 @@
 
 ---
 
-2️⃣ Structure GitHub complète
+2️⃣ Structure GitHub
+- complète
 
 ```text
 tmdgFiles/
