@@ -2,6 +2,12 @@
 
 ---
 
+<div align="center">
+  <img src="assets/demo.svg" width="720" alt="tmdgFiles Demo HUD"/>
+</div>
+
+---
+
 2️⃣ Structure GitHub
 - complète
 
