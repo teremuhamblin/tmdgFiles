@@ -2,12 +2,12 @@
 
 ---
 
-1️⃣ tmdgFiles
-- v1.0.0
+### 1️⃣ tmdgFiles
+- *v1.0.0*
 
 **tmdgFiles** est un *gestionnaire de fichiers* moderne, léger et unique, inspiré de *Nemo/Nautilus* mais conçu pour être simple, rapide et extensible.
 
-🚀 Fonctionnalités principales
+### 🚀 Fonctionnalités principales
 ```text
 - Navigation fluide dans les dossiers
 - Affichage des fichiers (nom, type, taille)
@@ -19,36 +19,36 @@
 - Vue “Mission” pour automatiser des actions sur plusieurs fichiers
 ```
 
-🧱 Architecture principale du projet
+### 🧱 Architecture principale
 ```text
 src/
- ├── src/
- ├── docs/
- ├── .github/
- ├── 
- ├── 
+ ├── src/ # architecture du projet
+ ├── docs/ # documentations
+ ├── .github/ # paramétrage git
+ ├── CODEOWNERS 
+ ├── CHANGELOG.md 
  ├── .gitignore 
- ├── main.rs
- └── config.rs
+ ├── .gitattributes 
+ └── README.md 
 ```
 
-📦 Installation
-- Dépendances Linux
+### 📦 Installation
+- ***Dépendances Linux***
    - **sudo apt install libgtk-4-dev**
 
-- Compilation
+- ***Compilation***
 ```text
 cargo build
 cargo run
 ```
 
-🗺️ Roadmap
+### 🗺️ Roadmap
 >> Voir docs/roadmap.md.
 
-📄 Licence
+### 📄 Licence
 >> Projet sous licence Unlicense (liberté totale).
 
-🤝 Contribution
+### 🤝 Contribution
 >> Pull Requests bienvenues.
 
 ---
