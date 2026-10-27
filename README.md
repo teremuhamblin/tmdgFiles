@@ -4,9 +4,9 @@
 # 🟩 tmdgFiles
 - Enterprise Edition
 
-<div align="center">
+<p align="center">
+<img src="~/src/logo.svg" width="420"/>
 
-<img src="logo.svg" width="420"/>
 ### Gestionnaire de fichiers Rust + GTK4  
 **Version : v1.0.x — Linux Native**
 
