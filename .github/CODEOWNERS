@@ -6,16 +6,16 @@
 
 # ───────────────────────────────────────────────
 # 🧩 Architecture principale (src/)
-src/* @teremuhamblin
+src/* teremuhamblin
 
 # 📚 Documentation (docs/)
-docs/* @teremuhamblin
+docs/* teremuhamblin
 
 # ⚙️ GitHub workflows & metadata
-.github/* @teremuhamblin
+.github/* teremuhamblin
 
 # 🗂️ Racine du projet
-/ @teremuhamblin
+/* teremuhamblin
 
 # ───────────────────────────────────────────────
 # 🛡️ Règles
