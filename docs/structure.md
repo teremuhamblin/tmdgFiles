@@ -40,7 +40,8 @@ tmdgFiles/
 ├── CHANGELOG.md 
 ├── ROADMAP.md 
 ├── .gitignore
-└── README.md
+├── README.md
+└── install.sh
 ```
 
 ---
