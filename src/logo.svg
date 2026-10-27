@@ -1,0 +1,7 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" fill="#0e1116"/>
+  <text x="30" y="75" font-family="Consolas, monospace" font-size="48" fill="#4af">
+    tmdg<span fill="#7ff542">Files</span>
+  </text>
+  <path d="M350 30 L390 60 L350 90 Z" fill="#7ff542"/>
+</svg>
