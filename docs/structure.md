@@ -2,14 +2,8 @@
 
 ---
 
-<div align="center">
-  <img src="assets/demo.svg" width="720"/>
-</div>
-
----
-
-2️⃣ Structure GitHub
-- complète
+### 2️⃣ Structure GitHub
+- Base v1.0.0
 
 ```text
 tmdgFiles/
@@ -40,7 +34,7 @@ tmdgFiles/
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── bug_report.yml
 │   │   └── feature_request.yml
-│   └── PULLREQUESTTEMPLATE.md
+│   └── PULL_REQUEST_TEMPLATE.yml
 │
 ├── LICENSE
 ├── CHANGELOG.md 
