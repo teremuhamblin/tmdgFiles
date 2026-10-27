@@ -22,15 +22,13 @@
 🧱 Architecture principale du projet
 ```text
 src/
+ ├── src/
+ ├── docs/
+ ├── .github/
+ ├── 
+ ├── 
+ ├── .gitignore 
  ├── main.rs
- ├── ui/
- │    ├── window.rs
- │    ├── sidebar.rs
- │    └── file_list.rs
- ├── core/
- │    ├── filesystem.rs
- │    ├── tags.rs
- │    └── missions.rs
  └── config.rs
 ```
 
