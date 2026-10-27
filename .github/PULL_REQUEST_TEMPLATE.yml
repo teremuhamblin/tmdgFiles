@@ -1,0 +1,40 @@
+name: "Pull Request"
+description: "Proposer une modification pour tmdgFiles"
+title: "[PR] - "
+labels: ["pr"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Explique ce que cette PR apporte."
+      placeholder: "Ajout, correction, amélioration..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: "Changements"
+      description: "Liste les modifications principales."
+      placeholder: "- ajout...\n- correction..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: "Tests"
+      description: "Décris les tests effectués."
+      placeholder: "Scénarios testés..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "Code propre ✔️"
+        - label: "Documentation mise à jour ✔️"
+        - label: "Aucun impact non prévu ✔️"
