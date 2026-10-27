@@ -1,61 +1,219 @@
 ###### README.md >> markdown
-# 1️⃣ tmdgFiles
-- *Version Stable*
+###### Version ultime, moderne, stylée, professionnelle, avec badges dynamiques, sections détaillées, diagrammes, installation rapide, packaging, architecture, roadmap, et un logo SVG personnalisé tmdgFiles.
 
-**tmdgFiles** est un *gestionnaire de fichiers* moderne, léger et unique, inspiré de ***Nemo et Nautilus*** mais conçu pour être simple, rapide et extensible.
+# 🟩 tmdgFiles
+- Enterprise Edition
+
+<div align="center">
+
+<img src="logo.svg" width="420"/>
+### Gestionnaire de fichiers Rust + GTK4  
+**Version : v1.0.x — Linux Native**
+
+![Status](https://img.shields.io/badge/status-stable-success)
+![Rust](https://img.shields.io/badge/Rust-1.70+-orange)
+![GTK4](https://img.shields.io/badge/GTK-4.0-blue)
+![Linux](https://img.shields.io/badge/Linux-compatible-green)
+![License](https://img.shields.io/badge/License-Apache_2.0-lightgrey)
+
+</div>
 
 ---
 
-### 🚀 Fonctionnalités principales
-```text
-- Navigation fluide dans les dossiers
-- Affichage des fichiers (nom, type, taille)
-- Actions essentielles : ouvrir, copier, déplacer, renommer, supprimer
-- Historique de navigation
-- Barre latérale (Home, Documents, Téléchargements, Favoris)
-- Système de tags (JSON)
-- Mode compact “Ops”
-- Vue “Mission” pour automatiser des actions sur plusieurs fichiers
-```
+# 🧭 Présentation
 
-### 🧱 Architecture principale
-- *Version initiale*
-```text
+**tmdgFiles** est un gestionnaire de fichiers **moderne**, **rapide** et **modulaire**, développé en **Rust** avec une interface graphique **GTK4**.  
+Il vise à offrir une expérience fluide, stable et extensible pour les environnements **Linux Desktop**.
+
+Fonctionnalités clés :
+
+- Interface GTK4 moderne  
+- Architecture Rust modulaire  
+- Système de **tags** interne  
+- Système de **missions** (batch operations)  
+- Navigation rapide et optimisée  
+- Compatible **toutes distributions Linux**  
+- Documentation complète + scripts d’installation
+
+---
+
+# 🏗️ Architecture du projet
+
+Documentation complète :
+
+- `docs/architecture.md`  
+- `docs/mission-system.md`  
+- `docs/tags-system.md`  
+- `docs/diagrams/`  
+
+### 📐 Diagramme (Mermaid)
+
+```mermaid
+flowchart TD
+    A[UI GTK4] --> B[Core Rust]
+    B --> C[Filesystem]
+    B --> D[Tags System]
+    B --> E[Mission System]
+    C --> F[OS Linux]
+
+📁 Arborescence
+
+`
 tmdgFiles/
- ├── src/ 
- ├── docs/ 
- ├── .github/
- ├── CODEOWNERS 
- ├── CHANGELOG.md 
- ├── CODEOWNERS
- ├── ROADMAP.md 
- ├── .gitignore 
- └── README.md 
-```
+ ├── src/
+ │   ├── main.rs
+ │   ├── ui/
+ │   ├── core/
+ │   ├── filesystem.rs
+ │   ├── tags.rs
+ │   └── missions.rs
+ ├── docs/
+ │   ├── architecture.md
+ │   ├── mission-system.md
+ │   ├── tags-system.md
+ │   └── diagrams/
+ ├── INSTALL.md
+ ├── UNINSTALL.md
+ ├── BUILD.md
+ ├── PACKAGE.md
+ ├── install.sh
+ ├── Cargo.toml
+ └── README.md
+`
 
-### 📦 Installation
-- ***Dépendances Linux***
-```text
-sudo apt install libgtk-4-dev
-```
-
-- ***Compilation***
-```text
-cargo build
-cargo run
-```
 ---
 
-```text
-### 🗺️ Roadmap
->> Voir docs/roadmap.md.
+🐧 Compatibilité Linux
 
-### 📄 Licence
->> Projet sous licence Unlicense
-- liberté totale
+tmdgFiles fonctionne sur toutes les distributions Linux modernes :
 
-### 🤝 Contribution
->> Pull Requests bienvenues.
-```
+- Debian / Ubuntu / Pop!_OS / Mint  
+- Fedora / RHEL / Rocky / AlmaLinux  
+- Arch Linux / Manjaro / EndeavourOS  
+- openSUSE Leap / Tumbleweed  
+- NixOS  
+- Gentoo  
+
+Dépendances :
+
+- Rust ≥ 1.70  
+- Cargo  
+- GTK4 + dev packages  
+- pkg-config  
+- Git  
+
+---
+
+🚀 Installation rapide (toutes distributions Linux)
+
+1. Rendre le script exécutable
+`bash
+chmod +x install.sh
+`
+
+2. Lancer l’installation
+`bash
+./install.sh
+`
+
+Ce script :
+
+- détecte automatiquement la distribution  
+- installe les dépendances  
+- installe Rust si nécessaire  
+- compile tmdgFiles  
+- installe le binaire dans /usr/local/bin/tmdgfiles
+
+---
+
+📦 Installation manuelle
+
+Voir : INSTALL.md
+
+---
+
+🧰 Compilation avancée
+
+Voir : BUILD.md
+
+Exemples :
+
+Optimisation CPU native
+`bash
+RUSTFLAGS="-C target-cpu=native" cargo build --release
+`
+
+Compilation Debug
+`bash
+cargo build
+./target/debug/tmdgFiles
+`
+
+---
+
+📦 Packaging Linux
+
+Voir : PACKAGE.md
+
+Formats supportés :
+
+- .deb  
+- .rpm  
+- AUR  
+- AppImage  
+
+---
+
+🧹 Désinstallation
+
+Voir : UNINSTALL.md
+
+---
+
+🛡️ Qualité & gouvernance
+
+- CODEOWNERS  
+- .github/ISSUE_TEMPLATE/  
+- .github/PULLREQUESTTEMPLATE.yml  
+- .github/workflows/  
+- CHANGELOG.md (v1.0.0 → v1.0.9)
+
+---
+
+📈 Roadmap v2.0.0
+
+- UI avancée (drag & drop, multi‑panneaux)  
+- Système de missions v2.0  
+- Système de tags v2.0  
+- Mode headless (CLI)  
+- Mode daemon (surveillance filesystem)  
+- Packaging AppImage officiel  
+- Intégration Flatpak  
+
+---
+
+🤝 Contribution
+
+Voir :
+
+- CONTRIBUTING.md  
+- CODEOWNERS  
+- .github/ISSUE_TEMPLATE/  
+- .github/PULLREQUESTTEMPLATE.yml
+
+---
+
+📜 Licence
+
+Projet sous licence Apache 2.0.
+
+---
+
+<div align="center">
+
+tmdgFiles — Rust. GTK4. Linux. Performance.
+
+</div>
+`
 
 ---
