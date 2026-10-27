@@ -6,6 +6,7 @@
 
 <p align="center">
 <img src="~/src/logo.svg" width="420"/>
+</p>
 
 ### Gestionnaire de fichiers Rust + GTK4  
 **Version : v1.0.x — Linux Native**
