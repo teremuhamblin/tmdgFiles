@@ -1,0 +1,44 @@
+name: "Bug Report"
+description: "Signaler un bug dans tmdgFiles"
+title: "[BUG] - "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description du bug"
+      placeholder: "Explique clairement le problème."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Étapes pour reproduire"
+      placeholder: "1...\n2...\n3..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Comportement attendu"
+      placeholder: "Ce qui aurait dû se produire."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs / Captures"
+      placeholder: "Ajoute toute information utile."
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: "Version"
+      placeholder: "v1.0.x"
+    validations:
+      required: true
