@@ -1,0 +1,36 @@
+name: "Feature Request"
+description: "Proposer une nouvelle fonctionnalité"
+title: "[FEATURE] - "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: "Objectif"
+      placeholder: "Décris la fonctionnalité souhaitée."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Contexte"
+      placeholder: "Pourquoi cette fonctionnalité est utile ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposition"
+      placeholder: "Comment elle pourrait fonctionner."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "Impact technique"
+      placeholder: "Modules impactés, fichiers concernés..."
+    validations:
+      required: false
