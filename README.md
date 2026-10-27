@@ -1,11 +1,10 @@
 ###### README.md >> markdown
+# 1️⃣ tmdgFiles
+- *Version Stable*
+
+**tmdgFiles** est un *gestionnaire de fichiers* moderne, léger et unique, inspiré de ***Nemo et Nautilus*** mais conçu pour être simple, rapide et extensible.
 
 ---
-
-### 1️⃣ tmdgFiles
-- *v1.0.0*
-
-**tmdgFiles** est un *gestionnaire de fichiers* moderne, léger et unique, inspiré de *Nemo/Nautilus* mais conçu pour être simple, rapide et extensible.
 
 ### 🚀 Fonctionnalités principales
 ```text
@@ -20,35 +19,42 @@
 ```
 
 ### 🧱 Architecture principale
+- *Version initiale*
 ```text
-src/
- ├── src/ # architecture du projet
- ├── docs/ # documentations
- ├── .github/ # paramétrage git
+tmdgFiles/
+ ├── src/ 
+ ├── docs/ 
+ ├── .github/
  ├── CODEOWNERS 
  ├── CHANGELOG.md 
+ ├── CODEOWNERS 
  ├── .gitignore 
- ├── .gitattributes 
  └── README.md 
 ```
 
 ### 📦 Installation
 - ***Dépendances Linux***
-   - **sudo apt install libgtk-4-dev**
+```text
+sudo apt install libgtk-4-dev
+```
 
 - ***Compilation***
 ```text
 cargo build
 cargo run
 ```
+---
 
+```text
 ### 🗺️ Roadmap
 >> Voir docs/roadmap.md.
 
 ### 📄 Licence
->> Projet sous licence Unlicense (liberté totale).
+>> Projet sous licence Unlicense
+- liberté totale
 
 ### 🤝 Contribution
 >> Pull Requests bienvenues.
+```
 
 ---
