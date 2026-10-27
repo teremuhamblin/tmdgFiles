@@ -21,7 +21,7 @@ tmdgFiles/
 │   └── config.rs
 │
 ├── assets/
-│   └── icons/
+│   └── .gitkeep
 │
 ├── docs/
 │   ├── architecture.md
@@ -37,6 +37,8 @@ tmdgFiles/
 │   └── PULLREQUESTTEMPLATE.md
 │
 ├── LICENSE
+├── CHANGELOG.md 
+├── ROADMAP.md 
 ├── .gitignore
 └── README.md
 ```
