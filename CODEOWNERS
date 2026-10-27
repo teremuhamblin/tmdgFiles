@@ -1,0 +1,24 @@
+# CODEOWNERS — tmdgFiles
+# Style moderne, clair, inspiré des projets Rust/GTK4 & Linux Desktop
+
+# 📁 Zones du projet
+# Chaque section définit les responsables directs des modules critiques.
+
+# ───────────────────────────────────────────────
+# 🧩 Architecture principale (src/)
+src/* @teremuhamblin
+
+# 📚 Documentation (docs/)
+docs/* @teremuhamblin
+
+# ⚙️ GitHub workflows & metadata
+.github/* @teremuhamblin
+
+# 🗂️ Racine du projet
+/ @teremuhamblin
+
+# ───────────────────────────────────────────────
+# 🛡️ Règles
+# - Toute modification dans src/ nécessite une review obligatoire
+# - Les PR doivent respecter le style défini dans docs/ui-design.md & docs/filesystem.md
+# - Les commits doivent suivre le format : add:, fix:, update:, refactor:, docs:
