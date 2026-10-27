@@ -3,7 +3,7 @@
 ---
 
 <div align="center">
-  <img src="assets/demo.svg" width="720" alt="tmdgFiles Demo HUD"/>
+  <img src="assets/demo.svg" width="720"/>
 </div>
 
 ---
